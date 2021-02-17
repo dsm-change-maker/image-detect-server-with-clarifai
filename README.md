@@ -6,8 +6,8 @@ A simple server that returns whether or not there are people in the image.
 
 ```
 # install this server
-$ git clone https://github.com/dsm-change-maker/image-detect-server.git
-$ cd image-detect-server
+$ git clone https://github.com/dsm-change-maker/image-detect-server-with-clarifai.git image-server
+$ cd image-server
 
 # install dependency
 $ pip3 install -r requirements.txt
