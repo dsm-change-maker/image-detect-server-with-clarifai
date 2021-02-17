@@ -23,7 +23,7 @@ if is_set_api_key:
 app = Flask(__name__)
 
 def detect_person(image_name):
-    if is_set_api_key:
+    if not is_set_api_key:
         return False
     person_like_names = ['Human', 'Person']
 
